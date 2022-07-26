@@ -105,14 +105,14 @@ st.write('O corpo manifesta de diversas a condição da fadiga/distraçãoo mas,
 st.write('O sistema de detecção de fadiga/distração pode ser considerado a última barreira para prevenção de acidentes mas uma barreira eficaz é aquela que sequer permitirá que o motorista incapaz inicie a jornada de trabalho.')
 
 
-**Sobre o dado 'Olhar para baixo N1'**
+**Sobre o dado Olhar para baixo N1**
 
 Este evento é captado quando o motorista desvia o olhar da frente em 1,5seg e esse tipo de comportamento não caracteriza necessariamente o comportamento de 
 fadiga/distração pois esse desvio é necessário para que o motorista olha o retrovisor em cruzamentos, conversões e paradas em semáforos. 
 
 
 
-**Sobre a 'Oclusão'**
+**Sobre a Oclusão**
 
 A Oclusão também não é necessiariamente o comportamento de fadiga/distração pois é uma ação voluntária do motorista em inibir o funcionamento da câmera 
 sugerindo ações adiministrativas com a identificação dos motoristas. A oclusão também pode ser falha no equipamento.
@@ -120,7 +120,7 @@ sugerindo ações adiministrativas com a identificação dos motoristas. A oclus
 
 **Em relação aos dias da semana**
 
-A chamada "lei do motorista" (13.103/2015) prevê tempo descanço no interjornada para os motoristas mas é necessário expandir o conceito pois qualquer esforço 
+A chamada lei do motorista (13.103/2015) prevê tempo descanço no interjornada para os motoristas mas é necessário expandir o conceito pois qualquer esforço 
 prolongado que o motorista execute no final-de-semana que não seja necessariamente digirir, está sujeito a ter o mesmo efeito no que diz repeito a coloca-lo 
 numa condição de fadiga. 
 
@@ -129,7 +129,7 @@ numa condição de fadiga.
 
 **Em relação ao local das ocorrências**
 
-A concentração das ocorrências em "baixa velocidade" na área industrial sugere que de fato os motoristas obedecem as retrições de velocidade impostas devido ao próprio risco operacional do lugar. O fato de haver uma quantidade significativa de ocorrência nessa região citada não significa necessamente que os motoristas são mais fadigados ou distraídos em tais locais, o que de fato ocorre é que se tem mais quilômetro rodado por m² nessa região do que no restante da cidade, então a possibilidade de ocorrência dos eventos dentro da área industrial é significativamente superior. Para testes futuros, pode-se agregar à analise um indicador de "densidade de circulação" para que fututos modelos preditivos captem tal condição.
+A concentração das ocorrências em baixa velocidade na área industrial sugere que de fato os motoristas obedecem as retrições de velocidade impostas devido ao próprio risco operacional do lugar. O fato de haver uma quantidade significativa de ocorrência nessa região citada não significa necessamente que os motoristas são mais fadigados ou distraídos em tais locais, o que de fato ocorre é que se tem mais quilômetro rodado por m² nessa região do que no restante da cidade, então a possibilidade de ocorrência dos eventos dentro da área industrial é significativamente superior. Para testes futuros, pode-se agregar à analise um indicador de "densidade de circulação" para que fututos modelos preditivos captem tal condição.
 
 Em relação as ocorrências no Araçagy, precisaria observa o inicio da jornada de trabalho dos motoristas pois, operacionalmente, o mesmo precisa ir até a gararem pegar o veiculos para depois se dirigir até o ponto inicial da rota. Se considerar as rotas mais longas e de ponto inicial distante da garagem como no caso destas, o motorista precisa acordar até 3h antes que o primeiro empregado chegue na área industrial.
 
