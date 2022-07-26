@@ -31,7 +31,7 @@ def plot_estoque(dataframe, categoria):
     return fig
 
 # importando os dados
-dados = pd.read_csv('estoque.csv')
+dados = pd.read_csv('df2.csv')
 
 st.title('Análise de estoque\n')
 st.write('Nesse projeto vamos analisar a quantidade de produtos em estoque, por categoria,  de uma base de dados de produtos de supermercado')
@@ -42,13 +42,13 @@ if opcao_1:
 
     st.sidebar.markdown('## Filtro para a tabela')
 
-    categorias = list(dados['Categoria'].unique())
+    categorias = list(dados['Eventos'].unique())
     categorias.append('Todas')
 
     categoria = st.sidebar.selectbox('Selecione a categoria para apresentar na tabela', options = categorias)
 
     if categoria != 'Todas':
-        df_categoria = dados.query('Categoria == @categoria')
+        df_categoria = dados.query('Eventos == @Eventos')
         mostra_qntd_linhas(df_categoria)      
     else:
         mostra_qntd_linhas(dados)
@@ -57,8 +57,8 @@ if opcao_1:
 # filtro para o gráfico
 st.sidebar.markdown('## Filtro para o gráfico')
 
-categoria_grafico = st.sidebar.selectbox('Selecione a categoria para apresentar no gráfico', options = dados['Categoria'].unique())
-figura = plot_estoque(dados, categoria_grafico)
+categoria_grafico = st.sidebar.selectbox('Selecione a categoria para apresentar no gráfico', options = dados['Eventos'].unique())
+figura = plot_df2(df2, Eventos_grafico)
 st.pyplot(figura)
 
 
