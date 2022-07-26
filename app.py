@@ -67,5 +67,5 @@ df2 = pd.DataFrame(
      np.random.randn(1000, 2),
      columns=['Latitude', 'Longitude'])
 
-st.map(df2)
+st.map(df)
 
