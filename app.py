@@ -99,14 +99,11 @@ px.scatter(df2, x="hora", y="Velocidade", color = "Eventos", size = "Velocidade"
 st.title('Conclusões e considerações\n')
 st.title('Em relação a forma de captação da informação de fadiga\n')
 
-st.write('O corpo manifesta de diversas a condição da fadiga/distraçãoo mas, apesar da experiência humana ser algo complexo, a tecnologia se esforça na busca de captar 
-manifestações faciais que possam ser correlacionadas com a incapacidade do motorista de exercer a sua função, não capta necessariamente o que acontece "por 
-dentro" pois nem toda expressão facial considerada na tecnologia é expressão da incapacidade do motorista em excercer a sua atividade. Mas esse fato não 
-invalida o uso da tecnologia.
+st.write('O corpo manifesta de diversas a condição da fadiga/distraçãoo mas, apesar da experiência humana ser algo complexo, a tecnologia se esforça na busca de captar manifestações faciais que possam ser correlacionadas com a incapacidade do motorista de exercer a sua função, não capta necessariamente o que acontece por dentro pois nem toda expressão facial considerada na tecnologia é expressão da incapacidade do motorista em excercer a sua atividade. Mas esse fato não invalida o uso da tecnologia.')
+
 
 O sistema de detecção de fadiga/distração pode ser considerado a "última barreira" para prevenção de acidentes mas uma barreira eficaz é aquela que sequer 
-permitirá que o motorista incapaz inicie a jornada de trabalho.')
-
+permitirá que o motorista incapaz inicie a jornada de trabalho.
 
 
 **Sobre o dado 'Olhar para baixo N1'**
