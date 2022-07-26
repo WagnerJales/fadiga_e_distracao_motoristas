@@ -105,14 +105,15 @@ st.write('O corpo manifesta de diversas a condição da fadiga/distraçãoo mas,
 st.write('O sistema de detecção de fadiga/distração pode ser considerado a última barreira para prevenção de acidentes mas uma barreira eficaz é aquela que sequer permitirá que o motorista incapaz inicie a jornada de trabalho.')
 
 
-**Sobre o dado Olhar para baixo N1**
+Sobre o dado Olhar para baixo N1
 
 Este evento é captado quando o motorista desvia o olhar da frente em 1,5seg e esse tipo de comportamento não caracteriza necessariamente o comportamento de 
 fadiga/distração pois esse desvio é necessário para que o motorista olha o retrovisor em cruzamentos, conversões e paradas em semáforos. 
 
 
 
-**Sobre a Oclusão**
+Sobre a Oclusão
+
 
 A Oclusão também não é necessiariamente o comportamento de fadiga/distração pois é uma ação voluntária do motorista em inibir o funcionamento da câmera 
 sugerindo ações adiministrativas com a identificação dos motoristas. A oclusão também pode ser falha no equipamento.
