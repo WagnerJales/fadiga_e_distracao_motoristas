@@ -61,16 +61,6 @@ if opcao_1:
     else:
         mostra_qntd_linhas(dados)
 
-        
-        
-
-# filtro para o gráfico
-st.sidebar.markdown('## Filtro para o gráfico')
-
-categoria_grafico = st.sidebar.selectbox('Selecione a categoria para apresentar no gráfico', options = dados['Eventos'].unique())
-figura = plot_df2(df2, Eventos_grafico)
-st.pyplot(figura)
-
 
 
 df2 = pd.DataFrame(
