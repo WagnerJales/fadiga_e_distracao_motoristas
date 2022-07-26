@@ -42,6 +42,11 @@ st.title('Análise de ocorrências de Fadiga e Distração\n')
 st.write('É possível prever quando um motorista manifestará sintomas de fadiga ao dirigir? A fadiga tem causas diversas e seus sintomas se manifestam por um bocejo ou até mesmo passando curtos espaços de tempo de olhos fechados ao volante? Uma das tecnologias desenvolvidas para identificar tais sintomas é através do reconhecimento deles na expressão facial dos motoristas. A partir dos dados históricos de uma operação de transporte de passageiros sob regime de fretamento, realizou-se uma análise exploratória dos dados e das relações entre as ocorrências (Variável explicada) e dados de tempo e espaço referente a tais ocorrências buscando identificar algum insght que possibilite modificar a operação para reduzir a exposição dos motoristas e, por consequencia, dos passeiros transportados.')
 
 
+df3 = pd.dados(
+     np.random.randn(1000, 2),
+     columns=['Latitude', 'Longitude'])
+st.map(df3)
+
 
 
 # filtros para a tabela
@@ -61,10 +66,4 @@ if opcao_1:
     else:
         mostra_qntd_linhas(dados)
 
-
-
-df3 = pd.dados(
-     np.random.randn(1000, 2),
-     columns=['Latitude', 'Longitude'])
-st.map(df3)
 
