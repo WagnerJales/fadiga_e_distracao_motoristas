@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 import seaborn as sns
 import matplotlib.pyplot as plt
 # %matplotlib inline
-
+import numpy as np
 
 
 # função para selecionar a quantidade de linhas do dataframe
