@@ -102,8 +102,7 @@ st.title('Em relação a forma de captação da informação de fadiga\n')
 st.write('O corpo manifesta de diversas a condição da fadiga/distraçãoo mas, apesar da experiência humana ser algo complexo, a tecnologia se esforça na busca de captar manifestações faciais que possam ser correlacionadas com a incapacidade do motorista de exercer a sua função, não capta necessariamente o que acontece por dentro pois nem toda expressão facial considerada na tecnologia é expressão da incapacidade do motorista em excercer a sua atividade. Mas esse fato não invalida o uso da tecnologia.')
 
 
-st.write('O sistema de detecção de fadiga/distração pode ser considerado a última barreira para prevenção de acidentes mas uma barreira eficaz é aquela que sequer permitirá que o motorista incapaz inicie a jornada de trabalho.')
-
+st.write('O sistema de detecção de fadiga/distração pode ser considerado a última barreira para prevenção de acidentes mas uma barreira eficaz é aquela que sequer permitirá que o motorista incapaz inicie a jornada de trabalho.
 
 Sobre o dado Olhar para baixo N1
 
@@ -121,7 +120,7 @@ sugerindo ações adiministrativas com a identificação dos motoristas. A oclus
 
 Em relação aos dias da semana
 
-A chamada lei do motorista (13.103/2015) prevê tempo descanço no interjornada para os motoristas mas é necessário expandir o conceito pois qualquer esforço 
+A chamada lei do motorista prevê tempo descanço no interjornada para os motoristas mas é necessário expandir o conceito pois qualquer esforço 
 prolongado que o motorista execute no final-de-semana que não seja necessariamente digirir, está sujeito a ter o mesmo efeito no que diz repeito a coloca-lo 
 numa condição de fadiga. 
 
@@ -135,6 +134,6 @@ Em relação as ocorrências no Araçagy, precisaria observa o inicio da jornada
 
 Recomendações para trabalhos futuros
 
-Recomenda-se a realização de testes estatísticos que permitam verificar a hipotese de haver uma relação hierarquia entre os tipos de ocorrências como uma espécie de pirâmide de Bird da qual possa se prever um caso mais grave (no caso, sonolência N2) a partir do acumulo de ocorrências menos graves. Por exemplo, quantas ocorrências de Sonolência N1 acontecem antes de uma N2?
+Recomenda-se a realização de testes estatísticos que permitam verificar a hipotese de haver uma relação hierarquia entre os tipos de ocorrências como uma espécie de pirâmide de Bird da qual possa se prever um caso mais grave (no caso, sonolência N2) a partir do acumulo de ocorrências menos graves. Por exemplo, quantas ocorrências de Sonolência N1 acontecem antes de uma N2?')
 
 Para isso é necessário que os dados sejam estruturados de forma a vincular as ocorrências ao motorista realizando numa mesma viagem. Esse tipo de estruturação de dados facilitará até na identificação da fadiga/distração como causas durante a investigação de acidentes.
