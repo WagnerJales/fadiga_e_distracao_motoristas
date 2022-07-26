@@ -63,7 +63,7 @@ if opcao_1:
 
 
 
-df3 = pd.df2(
+df3 = pd.dados(
      np.random.randn(1000, 2),
      columns=['Latitude', 'Longitude'])
 st.map(df3)
