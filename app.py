@@ -14,12 +14,12 @@ def mostra_qntd_linhas(dataframe):
     
     qntd_linhas = st.sidebar.slider('Selecione a quantidade de linhas que deseja mostrar na tabela', min_value = 1, max_value = len(dataframe), step = 1)
 
-    st.write(dataframe.head(qntd_linhas).style.format(subset = ['Valor'], formatter="{:.2f}"))
+    st.write(dataframe.head(qntd_linhas).style.format(subset = ['Eventos'], formatter="{:.2f}"))
 
 # função que cria o gráfico
 def plot_estoque(dataframe, categoria):
 
-    dados_plot = dataframe.query('Categoria == @categoria')
+    dados_plot = dataframe.query('Eventos == @Eventos')
 
     fig, ax = plt.subplots(figsize=(8,6))
     ax = sns.barplot(x = 'Produto', y = 'Quantidade', data = dados_plot)
