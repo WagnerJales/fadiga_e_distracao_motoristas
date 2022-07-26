@@ -102,38 +102,4 @@ st.title('Em relação a forma de captação da informação de fadiga\n')
 st.write('O corpo manifesta de diversas a condição da fadiga/distraçãoo mas, apesar da experiência humana ser algo complexo, a tecnologia se esforça na busca de captar manifestações faciais que possam ser correlacionadas com a incapacidade do motorista de exercer a sua função, não capta necessariamente o que acontece por dentro pois nem toda expressão facial considerada na tecnologia é expressão da incapacidade do motorista em excercer a sua atividade. Mas esse fato não invalida o uso da tecnologia.')
 
 
-st.write('O sistema de detecção de fadiga/distração pode ser considerado a última barreira para prevenção de acidentes mas uma barreira eficaz é aquela que sequer permitirá que o motorista incapaz inicie a jornada de trabalho.
-
-Sobre o dado Olhar para baixo N1
-
-Este evento é captado quando o motorista desvia o olhar da frente em 1,5seg e esse tipo de comportamento não caracteriza necessariamente o comportamento de 
-fadiga/distração pois esse desvio é necessário para que o motorista olha o retrovisor em cruzamentos, conversões e paradas em semáforos. 
-
-
-
-Sobre a Oclusão
-
-
-A Oclusão também não é necessiariamente o comportamento de fadiga/distração pois é uma ação voluntária do motorista em inibir o funcionamento da câmera 
-sugerindo ações adiministrativas com a identificação dos motoristas. A oclusão também pode ser falha no equipamento.
-
-
-Em relação aos dias da semana
-
-A chamada lei do motorista prevê tempo descanço no interjornada para os motoristas mas é necessário expandir o conceito pois qualquer esforço 
-prolongado que o motorista execute no final-de-semana que não seja necessariamente digirir, está sujeito a ter o mesmo efeito no que diz repeito a coloca-lo 
-numa condição de fadiga. 
-
-É necessário observar se de fato os motoristas do regime administrativo (que operam de segunda a sexta) estão cumprindo o repouso necessário no final de semana para que não começem a jornada na segunda-feita já fadigados. Para isso pode-se associar testes de atenção antes do inicio da jornada, especialmente para estes casos.
-
-Em relação ao local das ocorrências
-
-A concentração das ocorrências em baixa velocidade na área industrial sugere que de fato os motoristas obedecem as retrições de velocidade impostas devido ao próprio risco operacional do lugar. O fato de haver uma quantidade significativa de ocorrência nessa região citada não significa necessamente que os motoristas são mais fadigados ou distraídos em tais locais, o que de fato ocorre é que se tem mais quilômetro rodado por m² nessa região do que no restante da cidade, então a possibilidade de ocorrência dos eventos dentro da área industrial é significativamente superior. Para testes futuros, pode-se agregar à analise um indicador de "densidade de circulação" para que fututos modelos preditivos captem tal condição.
-
-Em relação as ocorrências no Araçagy, precisaria observa o inicio da jornada de trabalho dos motoristas pois, operacionalmente, o mesmo precisa ir até a gararem pegar o veiculos para depois se dirigir até o ponto inicial da rota. Se considerar as rotas mais longas e de ponto inicial distante da garagem como no caso destas, o motorista precisa acordar até 3h antes que o primeiro empregado chegue na área industrial.
-
-Recomendações para trabalhos futuros
-
-Recomenda-se a realização de testes estatísticos que permitam verificar a hipotese de haver uma relação hierarquia entre os tipos de ocorrências como uma espécie de pirâmide de Bird da qual possa se prever um caso mais grave (no caso, sonolência N2) a partir do acumulo de ocorrências menos graves. Por exemplo, quantas ocorrências de Sonolência N1 acontecem antes de uma N2?')
-
-Para isso é necessário que os dados sejam estruturados de forma a vincular as ocorrências ao motorista realizando numa mesma viagem. Esse tipo de estruturação de dados facilitará até na identificação da fadiga/distração como causas durante a investigação de acidentes.
+st.write('O sistema de detecção de fadiga/distração pode ser considerado a última barreira para prevenção de acidentes mas uma barreira eficaz é aquela que sequer permitirá que o motorista incapaz inicie a jornada de trabalho.')
